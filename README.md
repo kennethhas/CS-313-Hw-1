@@ -14,7 +14,7 @@ it ask you to make a restaurant class with a pure virtual function. A pure virtu
 is a way that to include a virtual function in a base class so that it may be redefined in
 a derived class to suit the objects of that class. And using polymorphism which occurs when 
 there is a hierarchy of classes which will call to a member of a function in this case 
-the restaurant class and the Greek Chinese Italian restaurant to print them out . 
+the restaurant class and the Greek Chinese Italian restaurant is the lower class . 
  First making a class restaurant with get and set in public and i put the virtual function (The = 0 tells the compiler that the function has no body and 
 above virtual function will be called pure virtual function. (tutorialpoint))The private variable is name and location this would help us with the name 
 of the restaurant and the location (however some menu don’t put their location). secondly i make an derived class in the restaurant class (pure virtual) 
